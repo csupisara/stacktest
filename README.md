@@ -1,8 +1,8 @@
 # Stack Testing
 
 ## Testing Result
-Test|Type0|Type1|Explanation
-————————————————————|:—————————————:|:——————:|--------:|
+| Test | Type0 | Type1 | Explanation |
+----------------|:------------:|:-------------:|-----------:|
 testCapacity()|Passed|Passed|-
 testNecessaryCapacity()|Passed|Passed|-
 testIsEmpty()|Passed|Passed|-
