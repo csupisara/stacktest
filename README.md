@@ -1,5 +1,6 @@
 # Stack Testing
 
+## Testing Result
 Test|Type0|Type1|Explanation
 ————————————————————|—————————————|——————|--------:
 testCapacity()|Passed|Passed|-
@@ -15,7 +16,7 @@ testOverflow()|Failed|Failed|If push is called when stack is full, it will throw
 testNewStackIsEmpty()|Passed|Passed|-
 testSize()|Passed|Failed|Return the number of items in the stack.
 
-
+## All Test
 ``` testCapacity() ``` The stack capacity need to be the same as the capacity that we initialize before testing.
 
 ``` testNecessaryCapacity() ``` Stack capacity never be negative number.
