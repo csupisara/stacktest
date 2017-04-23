@@ -2,7 +2,7 @@
 
 ## Testing Result
 | Test | Type0 | Type1 | Explanation |
-----------------|:------------:|:-------------:|-----------:|
+----------------|:------------:|:-------------:|-----------|
 testCapacity()|Passed|Passed|-
 testNecessaryCapacity()|Passed|Passed|-
 testIsEmpty()|Passed|Passed|-
@@ -10,7 +10,7 @@ testIsFull()|Passed|Failed|Stack should be full when the size is same as the cap
 testPeek()|Failed|Failed|When push some elements into stack, the peek should return the same element every times and not alter the stack.
 testPopEmptyStack()|Passed|Passed|-
 testPopSize()|Passed|Failed|Pop will remove the top stack.
-testPopReturn()|Passed|Passed -
+testPopReturn()|Passed|Passed|-
 testPushNullThrowsException()|Passed|Failed|If push null to the stack, it will throws IllegalArgumentException.
 testOverflow()|Failed|Failed|If push is called when stack is full, it will throws IllegalStateException.
 testNewStackIsEmpty()|Passed|Passed|-
