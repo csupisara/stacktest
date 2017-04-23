@@ -1,6 +1,7 @@
 # Stack Testing
 
-Test						|Type0		|Type1		|Explanation
+Test	|Type0		|Type1		|Explanation
+
 ————————————————————|—————————————|—————— |————:
 testCapacity() | Passed | Passed | -
 testNecessaryCapacity() | Passed | Passed | -
@@ -17,7 +18,9 @@ testSize() | Passed | Failed | Return the number of items in the stack.
 
 
 ``` testCapacity() ``` The stack capacity need to be the same as the capacity that we initialize before testing.
+
 ``` testNecessaryCapacity() ``` Stack capacity never be negative number.
+
 ``` testIsEmpty() ``` Test that IsEmpty method is working correctly.
 ``` testIsFull() ``` Stack should be full when the size is same as the capacity.
 ``` testPeek() ``` When push some elements into stack, the peek should return the same element every times and not alter the stack.
